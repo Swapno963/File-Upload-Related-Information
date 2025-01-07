@@ -18,7 +18,6 @@ class DocumentCreateView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-
     def post(self, request):
         uploaded_file = request.FILES.get('file')  
         print("uploaded_file :", uploaded_file)
