@@ -1,0 +1,48 @@
+# Python cache files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific files
+db.sqlite3
+*.log
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Static and media files
+/staticfiles/
+/media/
+static/
+media/
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Compiled files
+*.so
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Other cache or temporary files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
